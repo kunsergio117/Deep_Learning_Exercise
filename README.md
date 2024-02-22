@@ -1,10 +1,17 @@
 # Deep_Learning_Exercise
 
 ## Description
+Jupyter notebook files running some case studies that I have done on deep learning.
+
+### 
+
+### IMDB dataset: 
+In this project I review and put into practice what I have learnt in how to utilize deep learning module tensorflow on text samples.
+
 The IMDB dataset has a set of 50,000 highly-polarized reviews from the Internet Movie Database. They are split into 25,000 reviews for training and 25,000 reviews for testing, each set consisting in 50% negative and 50% positive reviews.
 
 The IMDB dataset comes packaged with Keras. It has already been preprocessed: the reviews (sequences of words)
-In this project I review and put into practice what I have learnt in how to utilize deep learning module tensorflow.
+
 
 ## Getting Started
 ### pip install instructions
@@ -25,7 +32,7 @@ pip install -r requirements.txt
 * jupyter
 
 ### Executing program
-The file Movie_Reviews_Practice.ipynb is a jupyter notebook as the individual code blocks are very time intensive to run.
+* The file Movie_Reviews_Practice.ipynb is a jupyter notebook as the individual code blocks are very time intensive to run.
 
 * If there is an error, please refer to the above required packages and programs in order for the program to run smoothly.
 
