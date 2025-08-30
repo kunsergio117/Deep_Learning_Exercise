@@ -1,0 +1,22 @@
+Sentiment analysis notes
+
+cosine similarity is used to determine how close 2 words are using their vectors, cos(0) would be completely similar and cos(180) would be not at all
+
+expanding sentiment lexicon by using stemming, lemmatization, synonyms. 
+
+suppot vector machines cannot classify more than 2 classes, there can only be 1 seperating hyperplane
+
+Naiive Bayes Classifier: machine learning method
+
+I want to do:
+tokenization,
+pos tagging,
+then lower(),
+lemmatization
+
+and not lower initially as the pos tagging might be mistaken, for example "US" refers to USA and not word 'us'
+
+stop words are also removed: like a,the, he, she, them, as they waste time and do not give sentiment. this should be done before lemmatization or stemming. 
+
+Term frequency, when a term is used alot, we associate the document with that idea
+Term Presence, some words appear more/less frequent in the language,
